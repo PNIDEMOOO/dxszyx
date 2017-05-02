@@ -1,0 +1,81 @@
+* {
+    font-family: 微软雅黑;
+}
+
+.sub-title {
+    background: #5094F2;
+}
+
+.sub-title h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 1em;
+    line-height: 1.5em;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    padding: 0;
+}
+
+/*.sub-title {*/
+    /*background: #252525;*/
+    /*padding: 2% 0;*/
+/*}*/
+
+/*.sub-title a {*/
+    /*color: #C6C6C6;*/
+    /*font-size: 1em;*/
+    /*display: block;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.sub-title h2 {*/
+    /*margin:0;*/
+    /*color: #0ecaf9;*/
+    /*font-size: 2em;*/
+    /*text-transform: uppercase;*/
+    /*display: inline-block;*/
+/*}*/
+
+.head-nav ul li a {
+    color: #b0b0b0;
+}
+
+.head-nav ul li a:hover, .head-nav ul li.active a {
+    border-bottom: 3px solid #33d6ff;
+    color: #6c6c6c;
+}
+.map_wrapper{
+    display: block;
+    margin: auto;
+}
+.map_wrapper h3{
+    float: none;
+    margin: auto;
+}
+.map{
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+.p_map{
+    font-size:20px;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+.SchoolURL{
+    color: #5094F2;
+}
+
+.SchoolURL:hover{
+    color:#5094F2;
+}

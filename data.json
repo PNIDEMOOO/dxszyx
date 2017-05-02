@@ -1,0 +1,79 @@
+[
+  {
+    "id": "0",
+    "name": "同济大学",
+    "lon": "121.22073",
+    "lat": "31.29188",
+    "url": "http://www.baidu.com"
+  },
+  {
+    "id": "1",
+    "name": "复旦大学",
+    "lon": "121.510999",
+    "lat": "31.301528",
+    "url": "http://pnidemooo.xyz"
+  },
+  {
+    "id": "2",
+    "name": "上海交通大学",
+    "lon": "121.438886",
+    "lat": "31.205559",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjMzNTU3NA==&mid=2247483839&idx=1&sn=6e5d7925f2238e0e1a0f73c1da83365d&chksm=e8d83906dfafb0103fade435c694ee0a9b7aab6446a3be79f6eed0d9ed87ea98c89edbdcf482#rd"
+  },
+  {
+    "id": "3",
+    "name": "华东师范大学",
+    "lon": "121.412119",
+    "lat": "31.233168",
+    "url": ""
+  },
+  {
+    "id": "4",
+    "name": "上海大学",
+    "lon": "121.39903",
+    "lat": "31.32144",
+    "url": ""
+  },
+  {
+    "id": "5",
+    "name": "华东理工大学",
+    "lon": "121.431398",
+    "lat": "31.149172",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjMzNTU3NA==&mid=2247483837&idx=1&sn=4c009d874780ba8e02be31addda35621&chksm=e8d83904dfafb012d58e39f10d1e0dfebc189af9df743ecad4c994366281b3eb720ce4317b0a#rd"
+  },
+  {
+    "id": "6",
+    "name": "东华大学",
+    "lon": "121.222066",
+    "lat": "31.061907",
+    "url": ""
+  },
+  {
+    "id": "7",
+    "name": "上海财经大学",
+    "lon": "121.507443",
+    "lat": "31.312204",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjMzNTU3NA==&mid=2247483861&idx=1&sn=83f98f76ce67f0d3051a0ed689a4a9a1&chksm=e8d8396cdfafb07aa7455cd5fb145e10b305121a2779161a285d170c455ce3b4cbfd16abefa2#rd"
+  },
+  {
+    "id": "8",
+    "name": "上海外国语大学",
+    "lon": "121.489015",
+    "lat": "31.282113",
+    "url": ""
+  },
+  {
+    "id": "9",
+    "name": "华东政法大学",
+    "lon": "121.20261",
+    "lat": "31.061249",
+    "url": ""
+  },
+  {
+    "id": "10",
+    "name": "上海理工大学",
+    "lon": "121.5586",
+    "lat": "31.296244",
+    "url": ""
+  }
+]
