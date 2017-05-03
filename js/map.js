@@ -13,10 +13,16 @@ var opts = {
 var sContent = '';
 var pointArray = new Array();
 var map = new BMap.Map("map");
-map.centerAndZoom(new BMap.Point(121.381963,31.263023), 12);
+map.centerAndZoom(new BMap.Point(121.4705,31.245488), 12);
 map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
 map.setCurrentCity("上海");          // 设置地图显示的城市 此项是必须设置的
 map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+//单击获取点击的经纬度
+map.addEventListener("click", function (e) {
+    alert(e.point.lng + "," + e.point.lat);
+});
+
 $.ajax({
     type: "get",
     url: "data.json",
