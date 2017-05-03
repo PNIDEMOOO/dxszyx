@@ -87,3 +87,12 @@
 .topic_title {
     color: #D94748;
 }
+
+a.more {
+    margin-top: 40px;
+}
+
+.prod {
+    padding: 16px 0;
+    margin: 20px 0;
+}
