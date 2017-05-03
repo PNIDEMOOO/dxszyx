@@ -3,7 +3,7 @@
     position: relative;
     margin: auto;
     margin-top: 30px;
-    background-color: #5e5e5e;
+    background: url(../images/background.jpg) no-repeat;
     width: 1200px;
     height: 800px;
 }
@@ -29,7 +29,7 @@
 
 /*设置每个照片的位置和旋转角度*/
 .img1 {
-    left: 0;
+    left: 50px;
     top: 50px;
     -webkit-transform: rotateZ(20deg);
 }
@@ -83,19 +83,13 @@
 }
 
 .img10 {
-    left: 540px;
+    left: 580px;
     top: 480px;
     -webkit-transform: rotateZ(-10deg);
 }
 
 .img11 {
-    left: 760px;
+    left: 830px;
     top: 500px;
     -webkit-transform: rotateZ(10deg);
-}
-
-.img12 {
-    left: -100px;
-    top: 250px;
-    -webkit-transform: rotateZ(-5deg);
 }

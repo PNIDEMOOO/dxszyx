@@ -17,6 +17,20 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+.about-text{
+margin-top:3em;
+}
+.about-text h3{
+color:#faad39;
+font-weight:600;
+margin-bottom:0.5em;
+}
+.about-text p {
+color:#7c7c7c;
+font-size:1em;
+line-height:1.8em;
+font-weight:400;
+}
 .header{
 	background:#fff;
 }
