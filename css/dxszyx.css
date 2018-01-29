@@ -1,5 +1,6 @@
 * {
     font-family: 微软雅黑;
+    transition: 0.3s;
 }
 
 .sub-title {
@@ -15,33 +16,22 @@
 }
 
 .header {
+    /*opacity: 0.9;*/
+    /*width: 100%;*/
+    /*position: fixed;*/
+    /*background-color: rgb(190,239,234);*/
     padding-top: 10px;
     padding-bottom: 10px;
+    z-index: 1;
 }
 
 .logo {
     padding: 0;
 }
 
-/*.sub-title {*/
-/*background: #252525;*/
-/*padding: 2% 0;*/
-/*}*/
-
-/*.sub-title a {*/
-/*color: #C6C6C6;*/
-/*font-size: 1em;*/
-/*display: block;*/
-/*text-decoration: none;*/
-/*}*/
-
-/*.sub-title h2 {*/
-/*margin:0;*/
-/*color: #0ecaf9;*/
-/*font-size: 2em;*/
-/*text-transform: uppercase;*/
-/*display: inline-block;*/
-/*}*/
+.banner{
+    padding-top: 120px;
+}
 
 .head-nav ul li a {
     color: #b0b0b0;
