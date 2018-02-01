@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daf84c34-9c00-40c7-84e1-f1a51f4f3e86" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/map.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/07.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/08.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/09.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/二维码.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/dxszyx.css" afterPath="$PROJECT_DIR$/css/dxszyx.css" />
       <change beforePath="$PROJECT_DIR$/css/home.css" afterPath="$PROJECT_DIR$/css/home.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/style2.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/swipebox.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/wall.css" afterPath="$PROJECT_DIR$/css/wall.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/map.html" afterPath="$PROJECT_DIR$/map.html" />
-      <change beforePath="$PROJECT_DIR$/test.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +22,8 @@
       <file leaf-file-name="dxszyx.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/dxszyx.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="72" column="17" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+            <state relative-caret-position="420">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,9 +52,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="136" column="36" lean-forward="true" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+            <state relative-caret-position="252">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#article#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#article#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -85,8 +67,8 @@
       <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -158,23 +140,15 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>product</find>
-      <find>src</find>
-      <find>example1</find>
-      <find>banner-img</find>
-      <find>head-nav</find>
-      <find>brand</find>
       <find>查看</find>
       <find>200px</find>
       <find>wmu</find>
       <find>swipe</find>
       <find>uppercase</find>
       <find>demo</find>
-      <find>nav</find>
       <find>foot</find>
       <find>caption</find>
       <find>selectFile</find>
-      <find>header</find>
       <find>hotGame</find>
       <find>hotRaiders</find>
       <find>gameList</find>
@@ -188,6 +162,14 @@
       <find>hotRdItem</find>
       <find>star</find>
       <find>star-</find>
+      <find>img-centered</find>
+      <find>head-nav</find>
+      <find>hover</find>
+      <find>nav</find>
+      <find>header</find>
+      <find>120px</find>
+      <find>sect</find>
+      <find>right</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,8 +197,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/map.css" />
         <option value="$PROJECT_DIR$/map.html" />
-        <option value="$PROJECT_DIR$/css/dxszyx.css" />
         <option value="$PROJECT_DIR$/css/home.css" />
+        <option value="$PROJECT_DIR$/css/dxszyx.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -248,6 +230,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,8 +248,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,7 +403,8 @@
       <workItem from="1517193844385" duration="3262000" />
       <workItem from="1517212686795" duration="6240000" />
       <workItem from="1517366163453" duration="3376000" />
-      <workItem from="1517448001854" duration="3355000" />
+      <workItem from="1517448001854" duration="4052000" />
+      <workItem from="1517455073854" duration="4440000" />
     </task>
     <task id="LOCAL-00001" summary="add map">
       <created>1493736409262</created>
@@ -549,11 +532,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517193648333</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="主页修改">
+      <created>1517452917445</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1517452917445</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74580000" />
+    <option name="totallyTimeSpent" value="79717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -562,7 +552,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18292683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821724" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -854,14 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/dxszyx.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="72" column="17" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/map.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -872,17 +854,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/dxszyx.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="136" column="36" lean-forward="true" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+        <state relative-caret-position="252">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#article#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#article#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

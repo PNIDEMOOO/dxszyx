@@ -9,6 +9,7 @@ body {
     margin: 0;
     /*font-family: 微软雅黑;*/
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 a {
@@ -31,8 +32,7 @@ a.active {
     line-height: 50px;
 }
 
-.nav {
-    /*background-color: #ee352a;*/
+.navi {
     background-color: #6f5499;
     height: 120px;
     width: 100%;
@@ -40,20 +40,64 @@ a.active {
     z-index: 2000;
 }
 
-.navLink {
+.nav-btn {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+
+    width: 30px;
+    height: 25px;
+    border-top: 5px solid #2c3e50;
+    border-bottom: 5px solid #2c3e50;
+    background-color: #2c3e50;
+    padding: 5px 0;
+    background-clip:content-box;
+
+}
+
+@media (min-width: 725px) {
+    .nav-btn {
+        display: none;
+    }
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
     display: inline-flex;
     justify-content: center;
     color: #fcf9c4;
-    line-height: 120px;
     height: 100%;
-    margin-left: 4%;
-    font-weight: bold;
+    line-height: 26px;
+    /*font-weight: bold;*/
     font-size: 20px;
     /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-right: 1px solid;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
-.navLink:hover {
+nav ul li:last-child{
+    border: none;
+}
+
+nav ul li a {
+    color: #fcf9c4;
+}
+
+nav ul li a:hover, nav ul li a.active {
     /*color: #fcf9c4;*/
     color: white;
     transition: 0.3s; /*切换时间*/
@@ -66,6 +110,9 @@ a.active {
     width: 400px;
     font-family: 华文行楷;
     font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
 }
 
 .logo:hover, .logo.active, .logo:focus {
@@ -74,33 +121,23 @@ a.active {
     text-decoration: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 952px) {
     .logo {
         width: 40%;
         float: left;
         line-height: 120px;
         text-align: center;
+        padding-top: 0;
+    }
+
+    nav {
+        width: 60%;
+        float: left;
+        text-align: center;
+        line-height: 120px;
     }
 }
 
-.header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    z-index: 1;
-}
-
-.banner {
-    padding-top: 120px;
-}
-
-.head-nav ul li a {
-    color: #b0b0b0;
-}
-
-.head-nav ul li a:hover, .head-nav ul li.active a {
-    border-bottom: 3px solid #33d6ff;
-    color: #6c6c6c;
-}
 
 
 

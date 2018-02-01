@@ -1,14 +1,3 @@
-body {
-    overflow-x: hidden;
-}
-
-.img-responsive {
-    height: 300px;
-    background-color: transparent;
-    margin: auto;
-    border-radius: 20px;
-}
-
 p {
     font-size: 20px;
 }
@@ -22,7 +11,6 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #6f5499;
     outline: none;
 }
 
@@ -58,15 +46,16 @@ hr.hr-primary:after {
     padding: 0 0.25em;
 }
 
-.img-centered {
-    margin: 0 auto;
+.img-responsive {
+    height: 300px;
+    background-color: transparent;
+    margin: auto;
+    border-radius: 20px;
 }
 
 header {
     text-align: center;
-    /*background: #ee352a;*/
     background-color: #6f5499;
-    /*color: #fcf9c4;*/
     color: white;
 }
 
@@ -108,7 +97,6 @@ header .intro-text .skills {
     }
 }
 
-
 section {
     padding: 100px 0;
 }
@@ -142,40 +130,42 @@ section.aboutUs a.active {
     }
 }
 
-
 /*热门攻略*/
-.hotRdItem{
+.hotRdItem {
     background: url(../images/banner.jpg) no-repeat center top;
     background-size: cover;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    -ms-background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
 }
-.hotRdItem-info{
-    padding:50px 0em;
+
+.hotRdItem-info {
+    padding: 50px 0em;
     display: flex;
 }
-.hot-img{
-    text-align:center;
+
+.hot-img {
+    text-align: center;
 }
-.hot-info{
+
+.hot-info {
     margin: auto;
 }
 
-.hotRdItem h1{
-    font-size:2.5em;
-    font-weight:400;
-    color:#ffffff;
-}
-.hotRdItem p{
-    font-size:1.3em;
-    font-weight:400;
-    color:#ffffff;
-    line-height: 1.5em;
-    margin:1em 0em ;
+.hotRdItem h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #ffffff;
 }
 
+.hotRdItem p {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.5em;
+    margin: 1em 0em;
+}
 
 @media (min-width: 767px) {
     .hotRaiders .aboutUs-item {
@@ -242,7 +232,6 @@ section.aboutUs a.active {
     }
 }
 
-
 .scroll-top {
     position: fixed;
     right: 2%;
@@ -264,84 +253,91 @@ section.aboutUs a.active {
     outline: none;
 }
 
-
 .intro {
     font-size: 20px;
 }
 
-
-.item{
+.item {
     border-radius: 20px;
 }
 
-.caption{
+.caption {
     border-radius: 20px;
 }
 
-.green{
+.green {
     font-size: large;
     color: #18bc9c;
 }
-
 
 /**** Slider *****/
 .wmuSlider {
     position: relative;
     overflow: hidden;
 }
+
 .wmuSlider .wmuSliderWrapper article img {
     max-width: 100%;
     width: auto;
     height: auto;
-    display:block;
+    display: block;
 }
+
 /* Default Skin */
 .wmuSliderPagination {
     z-index: 2;
     position: absolute;
-    right:40%;
-    bottom:35px;
+    right: 40%;
+    bottom: 35px;
 }
+
 ul.wmuSliderPagination {
-    padding:0;
+    padding: 0;
 }
+
 .wmuSliderPagination li {
     float: left;
     margin: 0 8px 0 0;
     list-style-type: none;
 }
+
 .wmuSliderPagination a {
     display: block;
     text-indent: -9999px;
-    width:0px;
-    height:0px;
-    background:#fff51f;
+    width: 0px;
+    height: 0px;
+    background: #fff51f;
 }
+
 .wmuSliderPagination a.wmuActive {
     /*background:#fb4d01;*/
     background: #6f5499;
 }
+
 /* Default Skin */
 .wmuGallery .wmuGalleryImage {
     margin-bottom: 10px;
 }
+
 .wmuSliderPrev, .wmuSliderNext {
     position: absolute;
-    width:27px;
-    height:62px;
+    width: 27px;
+    height: 62px;
     text-indent: -9999px;
-    background: url(../images/img-sprite.png)no-repeat ;
-    top:35%;
+    background: url(../images/img-sprite.png) no-repeat;
+    top: 35%;
     z-index: 2;
     cursor: pointer;
 }
+
 .wmuSliderNext {
-    background-position:-117px -203px;
+    background-position: -117px -203px;
     right: 0em;
     top: 230px;
 }
+
 .wmuSliderPrev {
-    background-position:-69px -202px;
+    background-position: -69px -202px;
     left: 0em;
     top: 230px;
 }
