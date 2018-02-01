@@ -9,12 +9,12 @@
           type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/style2.css" rel="stylesheet">
+    <link href="css/dxszyx.css" rel="stylesheet">
+    <link href="css/wall.css" rel="stylesheet">
 </head>
 <body>
 <div class="nav">
-    <a href="" class="navLink brand">大学生自由行</a>
+    <a href="" class="logo">FTofCS</a>
     <a href="" class="navLink">Home</a>
     <a href="#List" class="navLink">Map&Search</a>
     <a href="" class="navLink">History</a>
@@ -30,31 +30,31 @@
                     <div class="intro-text">
                         <span class="name">Free travel of College Students</span>
                         <span class="name">大 学 生 自 由 行</span>
-                        <hr class="star-light">
+                        <hr class="hr-light">
                         <span class="skills">一个专属于大学生的旅游交友平台</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <section class="hotGame">
+    <section class="hotRaiders">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Hot Raiders</h2>
-                    <hr class="star-primary">
+                    <hr class="hr-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="banner">
+                <div class="hotRdItem">
                     <div class="container">
                         <div class="wmuSlider carousel section" id="section-1">
                             <article style="position: absolute;opacity: 0;">
-                                <div class="banner-info">
-                                    <div class="col-md-6 info1">
-                                        <img src="images/pic1.jpg" class="" alt=""/>
+                                <div class="hotRdItem-info">
+                                    <div class="col-md-6 hot-img">
+                                        <img src="images/pic1.jpg"/>
                                     </div>
-                                    <div class="col-md-6 info">
+                                    <div class="col-md-6 hot-info">
                                         <h1>玩转上海高校系列</h1>
                                         <p>最有特色的景点</p>
                                         <p>最难忘的活动</p>
@@ -66,11 +66,11 @@
                                 </div>
                             </article>
                             <article style="position: absolute;opacity: 0;">
-                                <div class="banner-info">
-                                    <div class="col-md-6 info1">
-                                        <img src="images/pic2.jpg" class="" alt=""/>
+                                <div class="hotRdItem-info">
+                                    <div class="col-md-6 hot-img">
+                                        <img src="images/pic2.jpg"/>
                                     </div>
-                                    <div class="col-md-6 info">
+                                    <div class="col-md-6 hot-info">
                                         <h1>青海那些值得一玩的地方</h1>
                                         <p>中国最美的盐湖————青海湖</p>
                                         <p>七扭八拐的过山车体验————坎布拉</p>
@@ -82,11 +82,11 @@
                                 </div>
                             </article>
                             <article style="position: absolute;opacity: 0;">
-                                <div class="banner-info">
-                                    <div class="col-md-6 info1">
-                                        <img src="images/pic3.jpg" class="" alt=""/>
+                                <div class="hotRdItem-info">
+                                    <div class="col-md-6 hot-img">
+                                        <img src="images/pic3.jpg"/>
                                     </div>
-                                    <div class="col-md-6 info">
+                                    <div class="col-md-6 hot-info">
                                         <h1>嘉定图书馆</h1>
                                         <p>全球最佳公共图书馆</p>
                                         <p>独有的时尚设计</p>
@@ -103,17 +103,21 @@
             </div>
         </div>
     </section>
-    <section class="gameList" id="List">
+    <section class="aboutUs" id="List">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Game List</h2>
-                    <hr class="star-light">
+                    <h2>About us</h2>
+                    <hr class="hr-light">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 gameList-item">
-                    <a target="_blank" href="2048/2048.html" class="gameList-link" data-toggle="modal">
+                <p>大学生自由行 是一个专属于大学生的旅游交友平台，接待人与游玩者全部都为实名认证的在校大学生，接待人通过线上平台发布接待时间、地点与行程安排，游玩者通过线上平台选择心仪伴游开启个性旅游之旅。
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 aboutUs-item">
+                    <a target="_blank" href="2048/2048.html" class="aboutUs-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <p>2048</p>
@@ -122,8 +126,8 @@
                         <img src="images/2048.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 gameList-item">
-                    <a target="_blank" href="拼图/拼图.html" class="gameList-link" data-toggle="modal">
+                <div class="col-sm-6 aboutUs-item">
+                    <a target="_blank" href="拼图/拼图.html" class="aboutUs-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <p>拼图</p>
@@ -133,38 +137,59 @@
                         <!--<div class="item" style="background: red;height: 200px;width: 100%"></div>-->
                     </a>
                 </div>
-                <div class="col-sm-4 gameList-item">
-                    <a target="_blank" href="消除方块/消除方块.html" class="gameList-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p>消除方块</p>
-                            </div>
-                        </div>
-                        <img src="images/消除方块.png" class="img-responsive" alt="">
-                    </a>
+            </div>
+        </div>
+        <div class="about">
+            <div class="container">
+                <div class="wall">
+                    <img src="images/01.jpg" alt="" class="photo img1"/>
+                    <img src="images/02.jpg" alt="" class="photo img2"/>
+                    <img src="images/03.jpg" alt="" class="photo img3"/>
+                    <img src="images/04.jpg" alt="" class="photo img4"/>
+                    <img src="images/05.jpg" alt="" class="photo img5"/>
+                    <img src="images/06.jpg" alt="" class="photo img6"/>
+                    <img src="images/07.jpg" alt="" class="photo img7"/>
+                    <img src="images/08.jpg" alt="" class="photo img8"/>
+                    <img src="images/09.jpg" alt="" class="photo img9"/>
+                    <img src="images/10.jpg" alt="" class="photo img10"/>
+                    <img src="images/11.jpg" alt="" class="photo img11"/>
                 </div>
             </div>
         </div>
     </section>
     <section id="About">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About me</h2>
-                    <hr class="star-primary">
-                    <span class="intro">张鸿羽 1452769</span>
-                </div>
-                <br><br>
-                <div class="col-lg-12 text-center">
-                    <a href="https://github.com/PNIDEMOOO/WebFinal" target="_blank">
-                        <svg aria-hidden="true" height="26" version="1.1" viewBox="0 0 16 16" width="26">
-                            <path fill-rule="evenodd"
-                                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-                        </svg>
-                        https://github.com/PNIDEMOOO/WebFinal</a>
+        <div class="about">
+            <div class="container">
+                <div class="wall">
+                    <img src="images/01.jpg" alt="" class="photo img1"/>
+                    <img src="images/02.jpg" alt="" class="photo img2"/>
+                    <img src="images/03.jpg" alt="" class="photo img3"/>
+                    <img src="images/04.jpg" alt="" class="photo img4"/>
+                    <img src="images/05.jpg" alt="" class="photo img5"/>
+                    <img src="images/06.jpg" alt="" class="photo img6"/>
+                    <img src="images/07.jpg" alt="" class="photo img7"/>
+                    <img src="images/08.jpg" alt="" class="photo img8"/>
+                    <img src="images/09.jpg" alt="" class="photo img9"/>
+                    <img src="images/10.jpg" alt="" class="photo img10"/>
+                    <img src="images/11.jpg" alt="" class="photo img11"/>
                 </div>
             </div>
         </div>
+
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-12 text-center">-->
+                    <!--<h2>Footprint</h2>-->
+                    <!--<hr class="hr-primary">-->
+                    <!--<span class="intro">张鸿羽 1452769</span>-->
+                <!--</div>-->
+                <!--<br><br>-->
+                <!--<div class="col-lg-12 text-center">-->
+                    <!--<a href="https://github.com/PNIDEMOOO/WebFinal" target="_blank">-->
+                        <!--https://github.com/PNIDEMOOO/WebFinal</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
     </section>
 </div>
 </body>

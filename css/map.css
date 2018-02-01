@@ -1,0 +1,25 @@
+
+.map_wrapper {
+    display: block;
+    margin: auto;
+}
+
+.map_wrapper h3 {
+    float: none;
+    margin: auto;
+}
+
+.map {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    height: 500px;
+    /*width: 90%;*/
+    margin-bottom: 50px;
+}
+
+.p_map {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5%;
+}
