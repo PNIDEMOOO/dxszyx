@@ -32,13 +32,13 @@ a.active {
     line-height: 50px;
 }
 
-.navi {
-    background-color: #6f5499;
-    height: 120px;
-    width: 100%;
-    top: 0px;
-    z-index: 2000;
-}
+/*.navi {*/
+    /*background-color: #6f5499;*/
+    /*height: 120px;*/
+    /*width: 100%;*/
+    /*top: 0px;*/
+    /*z-index: 3;*/
+/*}*/
 
 .nav-btn {
     position: absolute;
@@ -52,17 +52,30 @@ a.active {
     background-color: #2c3e50;
     padding: 5px 0;
     background-clip:content-box;
-
-}
-
-@media (min-width: 725px) {
-    .nav-btn {
-        display: none;
-    }
 }
 
 nav {
     width: 100%;
+
+    background-color: #6f5499;
+    height: 120px;
+    top: 0px;
+    z-index: 3;
+}
+
+.navbar{
+    margin: 0;
+    border-radius: 0;
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav{
+    display: inline-flex;
+    justify-content: center;
 }
 
 nav ul {
@@ -70,6 +83,8 @@ nav ul {
     text-align: center;
     margin: 0;
     padding: 0;
+    margin: auto;
+    width: 100%;
 }
 
 nav ul li {
@@ -98,10 +113,13 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li a.active {
-    /*color: #fcf9c4;*/
     color: white;
     transition: 0.3s; /*切换时间*/
     border-bottom: 2px solid #fcf9c4;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+    background-color: #6f5499;
 }
 
 .logo {
@@ -116,7 +134,6 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 .logo:hover, .logo.active, .logo:focus {
-    /*color: #fcf9c4;*/
     color: white;
     text-decoration: none;
 }
@@ -130,13 +147,18 @@ nav ul li a:hover, nav ul li a.active {
         padding-top: 0;
     }
 
-    nav {
+    .menu {
         width: 60%;
         float: left;
         text-align: center;
         line-height: 120px;
     }
+
+    nav ul li{
+        border: none;
+    }
 }
+
 
 
 

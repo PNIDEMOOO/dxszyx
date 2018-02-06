@@ -130,6 +130,11 @@ section.aboutUs a.active {
     }
 }
 
+
+.carousel-inner{
+    padding: 30px;
+}
+
 /*热门攻略*/
 .hotRdItem {
     background: url(../images/banner.jpg) no-repeat center top;
@@ -151,6 +156,7 @@ section.aboutUs a.active {
 
 .hot-info {
     margin: auto;
+
 }
 
 .hotRdItem h1 {
@@ -257,9 +263,9 @@ section.aboutUs a.active {
     font-size: 20px;
 }
 
-.item {
-    border-radius: 20px;
-}
+/*.item {*/
+    /*border-radius: 20px;*/
+/*}*/
 
 .caption {
     border-radius: 20px;
@@ -319,25 +325,26 @@ ul.wmuSliderPagination {
     margin-bottom: 10px;
 }
 
+/*左右箭头*/
 .wmuSliderPrev, .wmuSliderNext {
     position: absolute;
-    width: 27px;
+    width: 20px;
     height: 62px;
     text-indent: -9999px;
     background: url(../images/img-sprite.png) no-repeat;
-    top: 35%;
+    top: 45%;
     z-index: 2;
     cursor: pointer;
 }
 
-.wmuSliderNext {
-    background-position: -117px -203px;
-    right: 0em;
-    top: 230px;
+.wmuSliderPrev {
+    background-position: -67px -203px;
+    left: 20px;
+    /*top: 230px;*/
 }
 
-.wmuSliderPrev {
-    background-position: -69px -202px;
-    left: 0em;
-    top: 230px;
+.wmuSliderNext {
+    background-position: -124px -202px;
+    right: 20px;
+    /*top: 230px;*/
 }

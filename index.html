@@ -2,32 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PNIDEMOOO</title>
     <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
           type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet">
     <link href="css/dxszyx.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
     <link href="css/wall.css" rel="stylesheet">
 </head>
 <body>
-<div class="navi">
-    <span style="font-family:Comic Sans MS;font-size:14px;">
-        <div class="nav-btn"></div>
+<nav id="nav" class="navbar" role="navigation">
+    <span>
+        <button type="button" class="navbar-toggle " data-toggle="collapse"
+                data-target="#example-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
     </span>
     <div class="logo">FTofCS</div>
-    <nav role="navigation">
-        <ul>
-            <li><a href="">Home</a></li>
+    <div class="collapse navbar-collapse menu" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a class="active" href="">Home</a></li>
             <li><a href="#List">Map&Search</a></li>
             <li><a href="">History</a></li>
             <li><a href="#About">About us</a></li>
         </ul>
-    </nav>
-</div>
+    </div>
+</nav>
+
 <div class="mainContent">
+
     <header>
         <div class="container">
             <div class="row">
@@ -44,6 +54,7 @@
             </div>
         </div>
     </header>
+
     <section class="hotRaiders">
         <div class="container">
             <div class="row">
@@ -54,10 +65,17 @@
             </div>
             <div class="row">
                 <div class="hotRdItem">
-                    <div class="container">
-                        <div class="wmuSlider carousel section" id="section-1">
-                            <article style="position: absolute;opacity: 0;">
-                                <div class="hotRdItem-info">
+                    <div class="container" style="padding: 0">
+                        <div class="carousel wmuSlider section" id="myCarousel">
+                            <!-- 轮播（Carousel）指标 -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <!-- 轮播（Carousel）项目 -->
+                            <div class="carousel-inner">
+                                <div class="item active">
                                     <div class="col-md-6 hot-img">
                                         <img src="images/pic1.jpg"/>
                                     </div>
@@ -70,11 +88,8 @@
                                         <a href="http://mp.weixin.qq.com/s/2H3tu-6U66eFyRTtpqHdPA"
                                            class="green">查看本期详情</a>
                                     </div>
-                                    <div class="clearfix"></div>
                                 </div>
-                            </article>
-                            <article style="position: absolute;opacity: 0;">
-                                <div class="hotRdItem-info">
+                                <div class="item">
                                     <div class="col-md-6 hot-img">
                                         <img src="images/pic2.jpg"/>
                                     </div>
@@ -87,11 +102,8 @@
                                         <a href="http://mp.weixin.qq.com/s/9BwoKiszgZ8sRnaTBuZhRQ"
                                            class="green">查看本期详情</a>
                                     </div>
-                                    <div class="clearfix"></div>
                                 </div>
-                            </article>
-                            <article style="position: absolute;opacity: 0;">
-                                <div class="hotRdItem-info">
+                                <div class="item">
                                     <div class="col-md-6 hot-img">
                                         <img src="images/pic3.jpg"/>
                                     </div>
@@ -104,15 +116,88 @@
                                         <a href="http://mp.weixin.qq.com/s/Bt_v-lHRNwQesJFpumXlxQ"
                                            class="green">查看本期详情</a>
                                     </div>
-                                    <div class="clearfix"></div>
                                 </div>
-                            </article>
+                            </div>
+                            <!-- 轮播（Carousel）导航 -->
+                            <a class="wmuSliderPrev" href="#myCarousel"
+                               data-slide="prev">&lsaquo;</a>
+                            <a class="wmuSliderNext" href="#myCarousel"
+                               data-slide="next">&rsaquo;</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--<section class="hotRaiders">-->
+    <!--<div class="container">-->
+    <!--<div class="row">-->
+    <!--<div class="col-lg-12 text-center">-->
+    <!--<h2>Hot Raiders</h2>-->
+    <!--<hr class="hr-primary">-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+    <!--<div class="hotRdItem">-->
+    <!--<div class="container">-->
+    <!--<div class="wmuSlider carousel section" id="section-1">-->
+    <!--<article style="position: absolute;opacity: 0;">-->
+    <!--<div class="hotRdItem-info">-->
+    <!--<div class="col-md-6 hot-img">-->
+    <!--<img src="images/pic1.jpg"/>-->
+    <!--</div>-->
+    <!--<div class="col-md-6 hot-info">-->
+    <!--<h1>玩转上海高校系列</h1>-->
+    <!--<p>最有特色的景点</p>-->
+    <!--<p>最难忘的活动</p>-->
+    <!--<p>你对学校的吐槽</p>-->
+    <!--<br>-->
+    <!--<a href="http://mp.weixin.qq.com/s/2H3tu-6U66eFyRTtpqHdPA"-->
+    <!--class="green">查看本期详情</a>-->
+    <!--</div>-->
+    <!--<div class="clearfix"></div>-->
+    <!--</div>-->
+    <!--</article>-->
+    <!--<article style="position: absolute;opacity: 0;">-->
+    <!--<div class="hotRdItem-info">-->
+    <!--<div class="col-md-6 hot-img">-->
+    <!--<img src="images/pic2.jpg"/>-->
+    <!--</div>-->
+    <!--<div class="col-md-6 hot-info">-->
+    <!--<h1>青海那些值得一玩的地方</h1>-->
+    <!--<p>中国最美的盐湖————青海湖</p>-->
+    <!--<p>七扭八拐的过山车体验————坎布拉</p>-->
+    <!--<p>可称作花海的油菜花田————门源</p>-->
+    <!--<br>-->
+    <!--<a href="http://mp.weixin.qq.com/s/9BwoKiszgZ8sRnaTBuZhRQ"-->
+    <!--class="green">查看本期详情</a>-->
+    <!--</div>-->
+    <!--<div class="clearfix"></div>-->
+    <!--</div>-->
+    <!--</article>-->
+    <!--<article style="position: absolute;opacity: 0;">-->
+    <!--<div class="hotRdItem-info">-->
+    <!--<div class="col-md-6 hot-img">-->
+    <!--<img src="images/pic3.jpg"/>-->
+    <!--</div>-->
+    <!--<div class="col-md-6 hot-info">-->
+    <!--<h1>嘉定图书馆</h1>-->
+    <!--<p>全球最佳公共图书馆</p>-->
+    <!--<p>独有的时尚设计</p>-->
+    <!--<p>开放时间</p>-->
+    <!--<br>-->
+    <!--<a href="http://mp.weixin.qq.com/s/Bt_v-lHRNwQesJFpumXlxQ"-->
+    <!--class="green">查看本期详情</a>-->
+    <!--</div>-->
+    <!--<div class="clearfix"></div>-->
+    <!--</div>-->
+    <!--</article>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</section>-->
     <section class="aboutUs" id="List">
         <div class="container">
             <div class="row">
@@ -206,14 +291,12 @@
 </html>
 
 
-<!-- script -->
-<script src="js/jquery.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/jquery.wmuSlider.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script type="application/x-javascript">
     addEventListener("load", function () {
         setTimeout(hideURLbar, 0);
     }, false);
-
-    $('.carousel').wmuSlider();
 
 </script>
