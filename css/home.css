@@ -122,7 +122,6 @@ section.aboutUs a.active {
     }
 }
 
-
 /*热门攻略*/
 .hotRdItem {
     background: url(../images/banner.jpg) no-repeat center top;
@@ -133,14 +132,17 @@ section.aboutUs a.active {
     -ms-background-size: cover;
 }
 
-.carousel-inner{
+.carousel-inner {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.hotRdItem-info {
-    padding: 50px 0em;
+.carousel-inner > .active {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .hot-img {

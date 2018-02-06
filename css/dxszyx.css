@@ -60,6 +60,7 @@ nav {
 .navbar-nav {
     display: inline-flex;
     justify-content: center;
+    margin: 0;
 }
 
 .navbar-collapse {
@@ -69,6 +70,7 @@ nav {
 .navbar-collapse.in {
     overflow-y: hidden;
     overflow-x: hidden;
+    border: none;
 }
 
 nav ul {
@@ -102,17 +104,14 @@ nav ul li:last-child {
     border: none;
 }
 
-nav ul li a {
+.nav > li > a {
     color: #fcf9c4;
 }
 
-nav ul li a:hover, nav ul li a.active {
+.nav > li > a:hover, .nav > li > a.active, .nav > li > a:focus {
     color: white;
     transition: 0.3s;
     border-bottom: 2px solid #fcf9c4;
-}
-
-.nav > li > a:hover, .nav > li > a:focus {
     background-color: #6f5499;
 }
 
@@ -124,6 +123,13 @@ nav ul li a:hover, nav ul li a.active {
     width: 100%;
     text-align: center;
     padding-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 @media (min-width: 952px) {
