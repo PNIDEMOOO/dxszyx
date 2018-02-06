@@ -40,7 +40,7 @@ hr.hr-primary:after {
 
 .img-responsive {
     height: 300px;
-    background-color: transparent;
+    /*background-color: transparent;*/
     margin: auto;
     border-radius: 20px;
 }
@@ -98,7 +98,7 @@ section h2 {
     font-size: 3em;
 }
 
-section.aboutUs {
+section.aboutUs,section.footprint,section.findMe {
     background: #6f5499;
     color: white;
 }
