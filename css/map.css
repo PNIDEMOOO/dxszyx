@@ -11,17 +11,28 @@
 
 .map {
     display: block;
-    margin: auto;
     margin-top: 30px;
     height: 500px;
-    /*width: 90%;*/
     margin-bottom: 50px;
 }
-
 
 .tip{
     margin-top: 30px;
     font-family: 微软雅黑;
     font-size: 20px;
     font-weight: bold;
+}
+
+.wrongPage{
+    margin-top: 30px;
+}
+
+.wrongPage a{
+    color: #5094F2;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+
+.wrongPage a:hover,.wrongPage a:focus,.wrongPage a.active{
+    border-bottom: 1px solid #5094F2;
 }
