@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="hotRdItem">
                     <div class="container" style="padding: 0">
-                        <div class="carousel wmuSlider section" id="myCarousel">
+                        <div class="carousel section" id="myCarousel">
                             <!-- 轮播（Carousel）指标 -->
                             <ol class="carousel-indicators">
                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -115,9 +115,9 @@
                                 </div>
                             </div>
                             <!-- 轮播（Carousel）导航 -->
-                            <a class="wmuSliderPrev" href="#myCarousel"
+                            <a class="sliderPrev" href="#myCarousel"
                                data-slide="prev">&lsaquo;</a>
-                            <a class="wmuSliderNext" href="#myCarousel"
+                            <a class="sliderNext" href="#myCarousel"
                                data-slide="next">&rsaquo;</a>
                         </div>
                     </div>
@@ -134,41 +134,45 @@
                 </div>
             </div>
             <div class="row">
-                <p>大学生自由行 是一个专属于大学生的旅游交友平台，接待人与游玩者全部都为实名认证的在校大学生，接待人通过线上平台发布接待时间、地点与行程安排，游玩者通过线上平台选择心仪伴游开启个性旅游之旅。
-                </p>
                 <p>大学生结伴，一场说走就走的背包旅行，一次独一无二的深入探访，告别喧嚣浮躁，带你走进犄角旮旯。融入当地风土人情，领略不一样的城。</p>
-            </div>
+                <p>大学生自由行是一个专属于大学生的旅游交友平台，接待人与游玩者全部都为实名认证的在校大学生，接待人通过线上平台发布接待时间、地点与行程安排，游玩者通过线上平台选择心仪伴游开启个性旅游之旅。
+                </p>
+                <p>截至目前，我们已经开展了《南翔古镇--寻找手艺人文化之旅》、《上海高校行》等一系列线下活动，并推出了《玩转高校》、《五湖四海》等适合大学生的线上旅行攻略。</p>
+                </div>
         </div>
     </section>
-    <section class="function">
+    <section class="achievements">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Function</h2>
+                <div class="col-sm-12 text-center">
+                    <h2>Achievements</h2>
                     <hr class="hr-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 aboutUs-item">
-                    <a target="_blank" href="2048/2048.html" class="aboutUs-link" data-toggle="modal">
+                <div class="col-sm-6 achievements-item">
+                    <a target="_blank" href="list.html" class="achievements-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <p>2048</p>
+                                <p>History</p>
+                                <p>往期攻略一览</p>
                             </div>
                         </div>
                         <img src="images/pic1.jpg" class="img-responsive" alt="">
                     </a>
+                    <h3>History</h3>
                 </div>
-                <div class="col-sm-6 aboutUs-item">
-                    <a target="_blank" href="拼图/拼图.html" class="aboutUs-link" data-toggle="modal">
+                <div class="col-sm-6 achievements-item">
+                    <a target="_blank" href="map.html" class="achievements-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <p>拼图</p>
+                                <p>Map & Search</p>
+                                <p>地图一键查找高校攻略</p>
                             </div>
                         </div>
                         <img src="images/pic2.jpg" class="img-responsive" alt="">
-                        <!--<div class="item" style="background: red;height: 200px;width: 100%"></div>-->
                     </a>
+                    <h3>Map & Search</h3>
                 </div>
             </div>
         </div>
@@ -243,10 +247,14 @@
 </html>
 
 <script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/jquery.wmuSlider.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="application/x-javascript">
     addEventListener("load", function () {
         setTimeout(hideURLbar, 0);
     }, false);
+
+    $('#myCarousel').carousel({
+        interval: 5000,
+        pause:"hover"
+    })
 </script>

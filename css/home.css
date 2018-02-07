@@ -98,16 +98,16 @@ section h2 {
     font-size: 3em;
 }
 
-section.aboutUs,section.footprint,section.findMe {
+section.aboutUs, section.footprint, section.findMe {
     background: #6f5499;
     color: white;
 }
 
-section.aboutUs a,
-section.aboutUs a:hover,
-section.aboutUs a:focus,
-section.aboutUs a:active,
-section.aboutUs a.active {
+section.achievements a,
+section.achievements a:hover,
+section.achievements a:focus,
+section.achievements a:active,
+section.achievements a.active {
     color: #2c3e50;
     outline: none;
 }
@@ -122,7 +122,7 @@ section.aboutUs a.active {
     }
 }
 
-/*热门攻略*/
+/* 热门攻略 HOT RAIDERS */
 .hotRdItem {
     background: url(../images/banner.jpg) no-repeat center top;
     background-size: cover;
@@ -175,156 +175,13 @@ section.aboutUs a.active {
     margin: 1em 0em;
 }
 
-@media (min-width: 767px) {
-    .hotRaiders .aboutUs-item {
-        margin: 0 0 30px;
-    }
-}
-
-.aboutUs .aboutUs-item {
-    margin: 0 0 15px;
-    right: 0;
-}
-
-.aboutUs .aboutUs-item .aboutUs-link {
-    display: block;
-    position: relative;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.aboutUs .aboutUs-item .aboutUs-link .caption {
-    /*background: rgba(111, 84, 153, 0.9);*/
-    background: rgba(255, 255, 255, 0.9);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all ease 0.5s;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
-}
-
-.aboutUs .aboutUs-item .aboutUs-link .caption:hover {
-    opacity: 1;
-}
-
-.aboutUs .aboutUs-item .aboutUs-link .caption .caption-content {
-    position: absolute;
-    width: 100%;
-    height: 20px;
-    font-size: 20px;
-    text-align: center;
-    top: 50%;
-    margin-top: -12px;
-    color: rgba(111, 84, 153, 1);
-    font-weight: bold;
-}
-
-.aboutUs .aboutUs-item .aboutUs-link .caption .caption-content i {
-    margin-top: -12px;
-}
-
-.aboutUs .aboutUs-item .aboutUs-link .caption .caption-content h3,
-.aboutUs .aboutUs-item .aboutUs-link .caption .caption-content h4 {
-    margin: 0;
-}
-
-.aboutUs * {
-    z-index: 2;
-}
-
-@media (min-width: 767px) {
-    .aboutUs .aboutUs-item {
-        margin: 0 0 30px;
-    }
-}
-
-.scroll-top {
-    position: fixed;
-    right: 2%;
-    bottom: 2%;
-    width: 50px;
-    height: 50px;
-    z-index: 1049;
-}
-
-.scroll-top .btn {
-    font-size: 20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    line-height: 28px;
-}
-
-.scroll-top .btn:focus {
-    outline: none;
-}
-
-.intro {
-    font-size: 20px;
-}
-
-.caption {
-    border-radius: 20px;
-}
-
 .green {
     font-size: large;
     color: #18bc9c;
 }
 
-/**** Slider *****/
-.wmuSlider {
-    position: relative;
-    overflow: hidden;
-}
-
-.wmuSlider .wmuSliderWrapper article img {
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    display: block;
-}
-
-/* Default Skin */
-.wmuSliderPagination {
-    z-index: 2;
-    position: absolute;
-    right: 40%;
-    bottom: 35px;
-}
-
-ul.wmuSliderPagination {
-    padding: 0;
-}
-
-.wmuSliderPagination li {
-    float: left;
-    margin: 0 8px 0 0;
-    list-style-type: none;
-}
-
-.wmuSliderPagination a {
-    display: block;
-    text-indent: -9999px;
-    width: 0px;
-    height: 0px;
-    background: #fff51f;
-}
-
-.wmuSliderPagination a.wmuActive {
-    /*background:#fb4d01;*/
-    background: #6f5499;
-}
-
-/* Default Skin */
-.wmuGallery .wmuGalleryImage {
-    margin-bottom: 10px;
-}
-
 /*左右箭头*/
-.wmuSliderPrev, .wmuSliderNext {
+.sliderPrev, .sliderNext {
     position: absolute;
     width: 20px;
     height: 62px;
@@ -335,14 +192,86 @@ ul.wmuSliderPagination {
     cursor: pointer;
 }
 
-.wmuSliderPrev {
+.sliderPrev {
     background-position: -67px -203px;
     left: 20px;
-    /*top: 230px;*/
 }
 
-.wmuSliderNext {
+.sliderNext {
     background-position: -124px -202px;
     right: 20px;
-    /*top: 230px;*/
+}
+
+
+/* 大学生自由行简介 ABOUT US */
+section.aboutUs p {
+    text-indent: 40px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+/* 两个功能板块 ACHIEVEMENTS */
+.achievements .achievements-item {
+    margin: 30px 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.achievements .achievements-item .achievements-link {
+    display: block;
+    position: relative;
+    width: 70%;
+    height: 300px;
+}
+
+.achievements .achievements-item .achievements-link .caption {
+    background-color: rgba(111, 84, 153, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.achievements .achievements-item .achievements-link .caption:hover {
+    opacity: 1;
+}
+
+.achievements .achievements-item .achievements-link .caption .caption-content {
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.achievements .achievements-item .achievements-link .caption .caption-content h3,
+.achievements .achievements-item .achievements-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+.achievements * {
+    z-index: 2;
+}
+
+
+/* 照片墙 FOOTPRINT */
+
+/* 联系我们 CONTACT US */
+
+/* 网页制作者 FIND ME */
+.intro {
+    font-size: 20px;
 }
