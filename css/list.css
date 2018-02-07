@@ -1,5 +1,3 @@
-.product-left1 img {
-}
 .products{
     margin:3em 0em;
 }
@@ -13,10 +11,13 @@
     margin: 2em 0em;
     padding: 2em 0em;
     border-bottom: 1px solid rgb(237, 230, 230);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }
-.product-right1 {
-    margin: 3em 0em;
-}
+
 .products p{
     font-size:1.1em;
     font-weight:400;
@@ -70,12 +71,7 @@ a.more {
     text-decoration: none;
     border-radius:3px;
     text-align: center;
-    -webkit-border-radius:3px;
-    -moz-border-radius:3px;
-    -o-border-radius:3px;
-    -msborder-radius:3px;
     position:relative;
-    margin:4em 0em 0em;
 }
 a.more:hover {
     background: #5094F2;
