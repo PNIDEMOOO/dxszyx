@@ -269,9 +269,22 @@ section.aboutUs p {
 
 /* 照片墙 FOOTPRINT */
 
-/* 联系我们 CONTACT US */
+/* 联系我们 JOIN US */
 
 /* 网页制作者 FIND ME */
+.fl-inline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.github{
+    /*margin-left: 20px;*/
+    color: white;
+    /*font-size: 20px;*/
+}
+
+
 .intro {
     font-size: 20px;
 }

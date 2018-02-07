@@ -24,10 +24,11 @@
     <div class="logo">FTofCS</div>
     <div class="navbar-collapse menu collapse" id="example-navbar-collapse">
         <ul class="nav navbar-nav">
-            <li><a class="active" href="">Home</a></li>
-            <li><a href="#List">Map&Search</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="#About">About us</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="map.html">Map&Search</a></li>
+            <li><a href="list.html">History</a></li>
+            <li><a href="#aboutUs">About us</a></li>
+            <li><a href="#joinUs">Join us</a></li>
         </ul>
     </div>
 </nav>
@@ -51,7 +52,7 @@
         </div>
     </header>
 
-    <section class="hotRaiders">
+    <section class="hotRaiders" id="hotRaiders">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -125,7 +126,7 @@
             </div>
         </div>
     </section>
-    <section class="aboutUs" id="List">
+    <section class="aboutUs" id="aboutUs">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -138,10 +139,10 @@
                 <p>大学生自由行是一个专属于大学生的旅游交友平台，接待人与游玩者全部都为实名认证的在校大学生，接待人通过线上平台发布接待时间、地点与行程安排，游玩者通过线上平台选择心仪伴游开启个性旅游之旅。
                 </p>
                 <p>截至目前，我们已经开展了《南翔古镇--寻找手艺人文化之旅》、《上海高校行》等一系列线下活动，并推出了《玩转高校》、《五湖四海》等适合大学生的线上旅行攻略。</p>
-                </div>
+            </div>
         </div>
     </section>
-    <section class="achievements">
+    <section class="achievements" id="achievements">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
@@ -177,7 +178,7 @@
             </div>
         </div>
     </section>
-    <section class="footprint">
+    <section class="footprint" id="footprint">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -208,24 +209,22 @@
             </div>
         </div>
     </section>
-    <section class="contactUs">
+    <section class="joinUs" id="joinUs">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>contact us</h2>
+                    <h2>join us</h2>
                     <hr class="hr-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="intro">同济大学 张鸿羽</p>
-                    <a href="https://github.com/PNIDEMOOO/WebFinal" target="_blank">
-                        https://github.com/PNIDEMOOO</a>
+                <div class="container">
+                    <img src="images/二维码.jpg" style="width: 70%;margin-left: 15%;" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <section class="findMe">
+    <section class="findMe" id="findMe">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -234,10 +233,15 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="intro">同济大学 张鸿羽</p>
-                    <a href="https://github.com/PNIDEMOOO/WebFinal" target="_blank">
-                        https://github.com/PNIDEMOOO</a>
+                <div class="col-lg-12 text-center fl-inline">
+                    <!--<svg aria-hidden="true" height="26" version="1.1" viewBox="0 0 16 16" width="26">-->
+                        <!--<path fill-rule="evenodd"-->
+                              <!--d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>-->
+                    <!--</svg>-->
+                    <i class="fa fa-fw fa-github" style="font-size: 26px"></i>
+                    <a href="https://github.com/PNIDEMOOO/dxszyx" class="github" target="_blank">
+                        https://github.com/PNIDEMOOO/dxszyx</a>
+
                 </div>
             </div>
         </div>
@@ -255,6 +259,6 @@
 
     $('#myCarousel').carousel({
         interval: 5000,
-        pause:"hover"
+        pause: "hover"
     })
 </script>

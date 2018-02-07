@@ -108,7 +108,7 @@ nav ul li:last-child {
     color: #fcf9c4;
 }
 
-.nav > li > a:hover, .nav > li > a.active, .nav > li > a:focus {
+.nav > li > a:hover, .nav > li > a:focus {
     color: white;
     transition: 0.3s;
     border-bottom: 2px solid #fcf9c4;
@@ -127,8 +127,8 @@ nav ul li:last-child {
 
 @media (min-width: 768px) {
     .navbar-nav > li > a {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
 
@@ -153,7 +153,7 @@ nav ul li:last-child {
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 692px) {
     .navbar-toggle {
         display: block;
     }
@@ -182,7 +182,7 @@ nav ul li:last-child {
     }
 }
 
-@media (min-width: 580px) {
+@media (min-width: 692px) {
     .navbar-toggle {
         display: none;
     }
