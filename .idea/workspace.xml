@@ -3,30 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="daf84c34-9c00-40c7-84e1-f1a51f4f3e86" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/dxszyx.css" afterPath="$PROJECT_DIR$/css/dxszyx.css" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" afterPath="$PROJECT_DIR$/css/home.css" />
-      <change beforePath="$PROJECT_DIR$/css/wall.css" afterPath="$PROJECT_DIR$/css/wall.css" />
-      <change beforePath="$PROJECT_DIR$/images/background.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/list/上交.jpg" afterPath="$PROJECT_DIR$/images/list/上交.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/list/上外.jpg" afterPath="$PROJECT_DIR$/images/list/上外.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/list/上财.jpg" afterPath="$PROJECT_DIR$/images/list/上财.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/list/华东理工.jpg" afterPath="$PROJECT_DIR$/images/list/华东理工.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/wall/01.jpg" afterPath="$PROJECT_DIR$/images/wall/01.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/wall/02.jpg" afterPath="$PROJECT_DIR$/images/wall/02.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/wall/03.jpg" afterPath="$PROJECT_DIR$/images/wall/03.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/wall/04.jpg" afterPath="$PROJECT_DIR$/images/wall/04.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/wall/05.jpg" afterPath="$PROJECT_DIR$/images/wall/05.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/wall/06.jpg" afterPath="$PROJECT_DIR$/images/wall/06.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/wall/07.jpg" afterPath="$PROJECT_DIR$/images/wall/07.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/wall/08.jpg" afterPath="$PROJECT_DIR$/images/wall/08.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/wall/09.jpg" afterPath="$PROJECT_DIR$/images/wall/09.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/wall/10.jpg" afterPath="$PROJECT_DIR$/images/wall/10.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/wall/11.jpg" afterPath="$PROJECT_DIR$/images/wall/11.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/二维码.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/list.html" afterPath="$PROJECT_DIR$/list.html" />
-      <change beforePath="$PROJECT_DIR$/map.html" afterPath="$PROJECT_DIR$/map.html" />
-      <change beforePath="$PROJECT_DIR$/wrong.html" afterPath="$PROJECT_DIR$/wrong.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -397,7 +373,7 @@
       <workItem from="1517799313338" duration="6225000" />
       <workItem from="1517882206090" duration="17216000" />
       <workItem from="1517967539030" duration="19221000" />
-      <workItem from="1518075640285" duration="4175000" />
+      <workItem from="1518075640285" duration="4195000" />
     </task>
     <task id="LOCAL-00001" summary="add map">
       <created>1493736409262</created>
@@ -602,11 +578,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518007954862</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="更改图片">
+      <created>1518080289701</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1518080289701</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126582000" />
+    <option name="totallyTimeSpent" value="126602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -674,7 +657,8 @@
     <MESSAGE value="更改导航栏" />
     <MESSAGE value="更改导航栏及list" />
     <MESSAGE value="wrongPage完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrongPage完成" />
+    <MESSAGE value="更改图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
