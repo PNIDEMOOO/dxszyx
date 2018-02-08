@@ -1,5 +1,4 @@
 * {
-    /*font-family: 微软雅黑;*/
     transition: 0.3s;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -7,7 +6,6 @@
 body {
     padding: 0;
     margin: 0;
-    /*font-family: 微软雅黑;*/
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     overflow-x: hidden;
 }
@@ -94,7 +92,7 @@ nav ul li {
     line-height: 26px;
     font-size: 20px;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    border-right: 1px solid;
+    border-right: 1px solid rgba(252,249,196,0.2);
     padding-left: 12px;
     padding-right: 12px;
     margin-bottom: 30px;
@@ -108,12 +106,15 @@ nav ul li:last-child {
 .nav > li > a {
     border-bottom: 2px solid transparent;
     color: #fcf9c4;
+    padding: 7px 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
     color: white;
     transition: 0.3s;
-    border-bottom: 2px solid #fcf9c4;
+    border-bottom: 1px solid #fcf9c4;
     background-color: #6f5499;
 }
 
@@ -128,8 +129,9 @@ nav ul li:last-child {
 
 @media (min-width: 768px) {
     .navbar-nav > li > a {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 0;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -147,6 +149,12 @@ nav ul li:last-child {
         float: left;
         text-align: center;
         line-height: 120px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     nav ul li {

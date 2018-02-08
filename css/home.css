@@ -270,6 +270,15 @@ section.aboutUs p {
 /* 照片墙 FOOTPRINT */
 
 /* 联系我们 JOIN US */
+.img-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-center img{
+    width: 70%;
+    height: 70%;
+}
 
 /* 网页制作者 FIND ME */
 .fl-col{
