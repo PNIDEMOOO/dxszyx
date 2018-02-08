@@ -40,11 +40,39 @@ hr.hr-primary:after {
 
 .img-responsive {
     height: 300px;
-    /*background-color: transparent;*/
     margin: auto;
     border-radius: 20px;
 }
 
+
+section {
+    padding: 70px 0;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+section.aboutUs, section.footprint, section.findMe {
+    background: #6f5499;
+    color: white;
+}
+
+section.hotRaiders, section.achievements, section.joinUs {
+    background-color: white;
+}
+
+section.achievements a,
+section.achievements a:hover,
+section.achievements a:focus,
+section.achievements a:active,
+section.achievements a.active {
+    color: #2c3e50;
+    outline: none;
+}
+
+/* 开头 header */
 header {
     text-align: center;
     background-color: #6f5499;
@@ -69,7 +97,7 @@ header .intro-text .name {
     font-size: 2em;
 }
 
-header .intro-text .skills {
+header .intro-text .slogan {
     font-size: 1.25em;
     font-weight: 300;
 }
@@ -84,52 +112,16 @@ header .intro-text .skills {
         font-size: 3.25em;
     }
 
-    header .intro-text .skills {
+    header .intro-text .slogan {
         font-size: 1.75em;
     }
 }
 
-section {
-    padding: 100px 0;
-}
-
-section h2 {
-    margin: 0;
-    font-size: 3em;
-}
-
-section.aboutUs, section.footprint, section.findMe {
-    background: #6f5499;
-    color: white;
-}
-
-section.achievements a,
-section.achievements a:hover,
-section.achievements a:focus,
-section.achievements a:active,
-section.achievements a.active {
-    color: #2c3e50;
-    outline: none;
-}
-
-@media (max-width: 767px) {
-    section {
-        padding: 75px 0;
-    }
-
-    section.first {
-        padding-top: 75px;
-    }
-}
 
 /* 热门攻略 HOT RAIDERS */
 .hotRdItem {
     background: url(../images/banner.jpg) no-repeat center top;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
 }
 
 .carousel-inner {
@@ -202,14 +194,12 @@ section.achievements a.active {
     right: 20px;
 }
 
-
 /* 大学生自由行简介 ABOUT US */
 section.aboutUs p {
     text-indent: 40px;
     font-size: 20px;
     line-height: 1.5;
 }
-
 
 /* 两个功能板块 ACHIEVEMENTS */
 .achievements .achievements-item {
@@ -266,29 +256,33 @@ section.aboutUs p {
     z-index: 2;
 }
 
-
 /* 照片墙 FOOTPRINT */
 
 /* 联系我们 JOIN US */
-.img-center{
+.img-center {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.img-center img{
+
+.img-center img {
     width: 70%;
     height: 70%;
 }
 
 /* 网页制作者 FIND ME */
-.fl-col{
+.fl-col {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
 }
+.col-xs-12.fl-col{
+    margin-left: 30px;
+}
 
-.fl-inline{
+
+.fl-inline {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -296,12 +290,12 @@ section.aboutUs p {
     margin: 8px 0;
 }
 
-.contactWay{
+.contactWay {
     margin-left: 20px;
     color: white;
     font-size: 18px;
 }
 
-section.findMe p{
+section.findMe p {
     font-size: 20px;
 }

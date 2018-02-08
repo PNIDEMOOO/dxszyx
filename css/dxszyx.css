@@ -43,13 +43,6 @@ nav {
     border-radius: 0;
 }
 
-/*.menu {*/
-/*!*width: 100%;*!*/
-/*text-align: center;*/
-/*background-color: #6f5499;*/
-/*height: 120px;*/
-/*}*/
-
 .collapse .in {
     overflow-y: hidden;
     overflow-x: hidden;
@@ -125,7 +118,6 @@ nav ul li:last-child {
     }
 
     .collapse {
-        aria-expanded: true;
         display: flex;
         justify-content: center;
         flex-direction: column;
