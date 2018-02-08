@@ -25,16 +25,8 @@ a.active {
 
 .nav-btn {
     position: absolute;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 40px;
-
-    width: 30px;
-    height: 25px;
-    border-top: 5px solid #2c3e50;
-    border-bottom: 5px solid #2c3e50;
-    background-color: #2c3e50;
-    padding: 5px 0;
-    background-clip: content-box;
 }
 
 nav {
@@ -42,31 +34,23 @@ nav {
     background-color: #6f5499;
     height: 120px;
     top: 0px;
-    z-index: 3;
+    z-index: 10;
 }
 
 .navbar {
     margin: 0;
+    border: 0;
     border-radius: 0;
 }
 
-.menu {
-    width: 100%;
-    text-align: center;
-    background-color: #6f5499;
-}
+/*.menu {*/
+/*!*width: 100%;*!*/
+/*text-align: center;*/
+/*background-color: #6f5499;*/
+/*height: 120px;*/
+/*}*/
 
-.navbar-nav {
-    display: inline-flex;
-    justify-content: center;
-    margin: 0;
-}
-
-.navbar-collapse {
-    border: none;
-}
-
-.navbar-collapse.in {
+.collapse .in {
     overflow-y: hidden;
     overflow-x: hidden;
     border: none;
@@ -84,6 +68,13 @@ nav ul {
     width: 100%;
 }
 
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: #6f5499;
+}
+
 nav ul li {
     display: inline-flex;
     justify-content: center;
@@ -92,11 +83,11 @@ nav ul li {
     line-height: 26px;
     font-size: 20px;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    border-right: 1px solid rgba(252,249,196,0.2);
+    border-right: 1px solid rgba(252, 249, 196, 0.2);
     padding-left: 12px;
     padding-right: 12px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 nav ul li:last-child {
@@ -124,14 +115,37 @@ nav ul li:last-child {
     font-size: 30px;
     width: 100%;
     text-align: center;
-    padding-top: 40px;
+    line-height: 120px;
+    height: 120px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 692px) {
+    .navbar-toggle {
+        display: none;
+    }
+
+    .collapse {
+        aria-expanded: true;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .navbar-nav > li > a {
         padding: 10px 0;
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        height: 80px;
+        width: 100%;
+        background-color: #6f5499;
     }
 }
 
@@ -139,7 +153,6 @@ nav ul li:last-child {
     .logo {
         width: 40%;
         float: left;
-        line-height: 120px;
         text-align: center;
         padding-top: 0;
     }
@@ -148,9 +161,9 @@ nav ul li:last-child {
         width: 60%;
         float: left;
         text-align: center;
-        line-height: 120px;
     }
-    nav{
+
+    nav {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -167,9 +180,12 @@ nav ul li:last-child {
         display: block;
     }
 
-    .menu {
+    .menu, .navbar-nav {
         background-color: #2c3e50;
-        z-index: 10;
+    }
+
+    .menu {
+        width: 100%;
     }
 
     nav ul {
@@ -191,13 +207,4 @@ nav ul li:last-child {
     }
 }
 
-@media (min-width: 692px) {
-    .navbar-toggle {
-        display: none;
-    }
-
-    .collapse {
-        display: block;
-    }
-}
 

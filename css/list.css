@@ -80,3 +80,9 @@ a.more:hover {
 .topic_title {
     color: #D94748;
 }
+
+@media (max-width: 992px) {
+    .sidebar{
+        display: none;
+    }
+}

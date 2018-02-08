@@ -1,7 +1,12 @@
-
 .map_wrapper {
     display: block;
     margin: auto;
+}
+
+@media (min-width: 692px) and (max-width: 951.9px) {
+    .map_wrapper{
+        margin-top: 80px;
+    }
 }
 
 .map_wrapper h3 {
@@ -16,23 +21,23 @@
     margin-bottom: 50px;
 }
 
-.tip{
+.tip {
     margin-top: 30px;
     font-family: 微软雅黑;
     font-size: 20px;
     font-weight: bold;
 }
 
-.wrongPage{
+.wrongPage {
     margin-top: 30px;
 }
 
-.wrongPage a{
+.wrongPage a {
     color: #5094F2;
     padding: 10px 0;
     margin: 0 10px;
 }
 
-.wrongPage a:hover,.wrongPage a:focus,.wrongPage a.active{
+.wrongPage a:hover, .wrongPage a:focus, .wrongPage a.active {
     border-bottom: 1px solid #5094F2;
 }
