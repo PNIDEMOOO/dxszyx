@@ -149,7 +149,7 @@ nav ul li:last-child {
     }
 }
 
-@media (min-width: 952px) {
+@media (min-width: 992px) {
     .logo {
         width: 40%;
         float: left;

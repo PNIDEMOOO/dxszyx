@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-@media (min-width: 692px) and (max-width: 951.9px) {
+@media (min-width: 692px) and (max-width: 991.9px) {
     .map_wrapper{
         margin-top: 80px;
     }
