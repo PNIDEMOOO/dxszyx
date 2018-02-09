@@ -44,7 +44,6 @@ hr.hr-primary:after {
     border-radius: 20px;
 }
 
-
 section {
     padding: 70px 0;
 }
@@ -71,6 +70,7 @@ section.achievements a.active {
     color: #2c3e50;
     outline: none;
 }
+
 
 /* 开头 header */
 header {
@@ -103,11 +103,6 @@ header .intro-text .slogan {
 }
 
 @media (min-width: 768px) {
-    header .container {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
     header .intro-text .name {
         font-size: 3.25em;
     }
@@ -116,7 +111,6 @@ header .intro-text .slogan {
         font-size: 1.75em;
     }
 }
-
 
 /* 热门攻略 HOT RAIDERS */
 .hotRdItem {
@@ -277,10 +271,10 @@ section.aboutUs p {
     align-items: flex-start;
     flex-direction: column;
 }
-.col-xs-12.fl-col{
+
+.col-xs-12.fl-col {
     padding-left: 30px;
 }
-
 
 .fl-inline {
     display: flex;
